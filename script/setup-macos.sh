@@ -56,6 +56,10 @@ defaults write com.apple.Safari ShowOverlayStatusBar -bool true
 defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
 # show favicons
 defaults write com.apple.Safari ShowIconsInTabs -bool true
+# show develop menu in menu bar
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
 echo "TODO: Setting preferences for Atom"
 echo "TODO: Setting preferences for Caffeine"
