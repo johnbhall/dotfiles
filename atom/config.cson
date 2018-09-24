@@ -1,0 +1,44 @@
+"*":
+  core:
+    allowPendingPaneItems: false
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "github"
+    ]
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "/coverage"
+      "log/*"
+      "tmp/cache/*"
+      ".rubocop_todo.yml"
+      "vendor/assets/*"
+      "coverage/*"
+    ]
+    telemetryConsent: "no"
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    absoluteMode: true
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnCurrentLine: false
+    removeTrailingWhitespace: false

@@ -1,0 +1,8 @@
+packages: [
+  "language-haml"
+  "minimap"
+  "package-sync"
+  "pigments"
+  "rails-snippets"
+  "Sublime-Style-Column-Selection"
+]
