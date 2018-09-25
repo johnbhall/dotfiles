@@ -13,3 +13,6 @@ STRAP_BIN_DIR=~/github/customink/strap/bin
 if [ -d $STRAP_BIN_DIR ]; then
   PATH="$STRAP_BIN_DIR:${PATH}"
 fi
+
+# add this for my rabbit tasks (eg, rabbitmqctl)
+PATH=$PATH:/usr/local/sbin
