@@ -16,3 +16,6 @@ fi
 
 # add this for my rabbit tasks (eg, rabbitmqctl)
 PATH=$PATH:/usr/local/sbin
+
+# add this for downloading python 3 (https://docs.python-guide.org/starting/install3/osx/)
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
